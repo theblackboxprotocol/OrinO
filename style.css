@@ -17,7 +17,7 @@
 
 body {
     background-color: var(--bg-color);
-    background-image: url('1000040607_2.webp');
+    background-image: url('1000040633.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -26,30 +26,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 50px;
-}
-
-/* Espace Publicitaire en haut */
-#ad-banner {
-    width: 100%;
-    max-width: 728px;
-    height: 90px;
-    background: rgba(10, 10, 20, 0.6);
-    border: 1px dashed rgba(147, 51, 234, 0.3);
-    margin: 15px auto;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    color: var(--text-muted);
-    font-size: 0.85rem;
-    border-radius: 8px;
-    backdrop-filter: blur(5px);
+    padding: 20px 0;
 }
 
 /* En-tête avec Logo Animé */
 header {
     text-align: center;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .logo-container {

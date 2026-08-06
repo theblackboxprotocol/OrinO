@@ -18,39 +18,43 @@
     <!-- Contenu Principal -->
     <div class="main-container">
         
-        <!-- Boîte de Prompt -->
+        <!-- Boîte de Prompt Principal -->
         <div class="glass-box prompt-section">
-            <h3>PROMPT PRINCIPAL</h3>
+            <div class="box-header">
+                <h3>PROMPT PRINCIPAL</h3>
+                <div class="box-actions">
+                    <button class="icon-btn" title="Random Prompt">
+                        <img src="dice_glass_transparent.png" alt="Dé">
+                    </button>
+                    <button class="icon-btn" title="Auto Prompt">
+                        <img src="thought_bubble_fog_transparent.png" alt="Cerveau/Bulle">
+                    </button>
+                </div>
+            </div>
             <textarea placeholder="Décrivez votre vision, style ou scène onirique..."></textarea>
         </div>
 
-        <!-- Boîte d'Anti-Prompt -->
+        <!-- Boîte d'Anti-Prompt / Exclusions -->
         <div class="glass-box prompt-section">
-            <h3>ANTI-PROMPT / EXCLUSIONS</h3>
+            <div class="box-header">
+                <h3>ANTI-PROMPT / EXCLUSIONS</h3>
+                <div class="box-actions">
+                    <button class="icon-btn" title="Random Anti-Prompt">
+                        <img src="dice_glass_transparent.png" alt="Dé">
+                    </button>
+                    <button class="icon-btn" title="Auto Anti-Prompt">
+                        <img src="thought_bubble_fog_transparent.png" alt="Cerveau/Bulle">
+                    </button>
+                </div>
+            </div>
             <textarea placeholder="Éléments à éviter (flou, déformations, texte indésirable)..."></textarea>
         </div>
 
-        <!-- Barre d'action avec le Dé et la Bulle -->
-        <div class="action-bar">
-            <!-- Bouton Dé -->
-            <button class="dice-btn" title="Générer aléatoirement">
-                <img src="dice_glass_transparent.png" alt="Dé OnirO">
-            </button>
-
-            <!-- Zone Bulle de pensée + Boutons -->
-            <div class="controls-right">
-                <div class="thought-container">
-                    <img src="thought_bubble_fog_transparent.png" alt="Bulle de pensée" class="thought-bg">
-                    <div class="thought-content">
-                        ✨ Façonnez l'onirique...
-                    </div>
-                </div>
-                <div class="custom-buttons">
-                    <button class="btn-custom">Nettoyer</button>
-                    <button class="btn-custom">Copier</button>
-                    <button class="btn-custom">Favoris</button>
-                </div>
-            </div>
+        <!-- Boutons du bas (Nettoyer, Copier, Favoris) -->
+        <div class="custom-buttons">
+            <button class="btn-custom">Nettoyer</button>
+            <button class="btn-custom">Copier</button>
+            <button class="btn-custom">Favoris</button>
         </div>
 
     </div>

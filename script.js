@@ -43,9 +43,9 @@ alert("Choix reçu : " + value);
 
 }
 // Add Shot / Effect / Colors / Genre to Prompt
-
-const promptMenus = [
 console.log("Menus chargés");
+const promptMenus = [
+
     "#shot-menu",
     "#effect-menu",
     "#color-menu",

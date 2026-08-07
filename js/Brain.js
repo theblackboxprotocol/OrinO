@@ -113,3 +113,18 @@ console.log(
     "Orino Brain prêt :",
     OrinoBrain.enhance("jaune brillant")
 );
+// =========================================================
+// BRAIN BUTTON
+// =========================================================
+
+const brainButton = document.querySelector("#Brain-btn");
+
+if (brainButton) {
+
+    brainButton.addEventListener("click", function () {
+
+        alert("Brain activé 🧠");
+
+    });
+
+}

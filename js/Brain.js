@@ -109,3 +109,7 @@ window.addEventListener("load", function(){
     console.log("Résultat Brain :", test);
 
 });
+console.log(
+    "Orino Brain prêt :",
+    OrinoBrain.enhance("jaune brillant")
+);

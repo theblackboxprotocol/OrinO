@@ -17,43 +17,26 @@ document.querySelector("#cinematic-tools");
 
 // Cinematic trigger
 
-style1.addEventListener("change", function(){
-style1.addEventListener("change", function(){
+document.addEventListener("change", function(e){
 
-    console.log("Choix détecté :", this.value);
+    if(e.target.id === "style-1"){
 
-    if(this.value.includes("Cinematic")) {
+        if(e.target.value.includes("Cinematic")){
 
-        console.log("Cinematic activé");
+            cinematicTools.classList.remove("hidden");
 
-        cinematicTools.classList.remove("hidden");
+            console.log("Cinematic activé");
 
-    } 
-    
-    else {
+        } 
+        else {
 
-        cinematicTools.classList.add("hidden");
+            cinematicTools.classList.add("hidden");
+
+        }
 
     }
 
 });
-
-    if(this.value.includes("Cinematic")) {
-
-        cinematicTools.classList.remove("hidden");
-
-    } 
-    
-    else {
-
-        cinematicTools.classList.add("hidden");
-
-    }
-
-
-});
-
-
 
 // Add selected option to prompt
 

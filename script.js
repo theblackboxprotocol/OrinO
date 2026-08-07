@@ -19,7 +19,7 @@ document.querySelector("#cinematic-tools");
 style1.addEventListener("change", function(){
 
 
-    if(this.value === "Cinematic") {
+    if(this.value.includes("Cinematic")) {
 
         cinematicTools.classList.remove("hidden");
 

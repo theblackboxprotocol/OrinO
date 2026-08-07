@@ -1314,3 +1314,238 @@ textarea {
 
 
 /* ---------- END ORINO STYLE ---------- */
+/* =========================================================
+   ORINO ADVANCED STYLE CONTROLS
+========================================================= */
+
+
+.advanced-controls {
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+}
+
+
+.style-row {
+
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+
+.style-control {
+
+    flex: 1;
+    min-width: 160px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+
+.style-control label {
+
+    color: var(--text-muted);
+
+    font-size: 0.75rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+}
+
+
+
+/* Glass Dropdowns */
+
+.style-control select,
+.cinematic-tools select {
+
+    width: 100%;
+
+    padding: 12px 14px;
+
+    border-radius: 12px;
+
+    background:
+
+        rgba(10, 5, 20, 0.65);
+
+    color:
+
+        var(--text-main);
+
+    border:
+
+        1px solid rgba(168,85,247,0.35);
+
+    backdrop-filter:
+
+        blur(12px);
+
+    cursor:
+
+        pointer;
+
+    outline:
+
+        none;
+
+    transition:
+
+        0.3s ease;
+
+}
+
+
+
+.style-control select:hover,
+.cinematic-tools select:hover {
+
+    border-color:
+
+        var(--neon-purple);
+
+    box-shadow:
+
+        0 0 15px rgba(168,85,247,0.35);
+
+}
+
+
+
+/* Cinematic mini tools */
+
+.cinematic-tools {
+
+    display:
+
+        flex;
+
+    gap:
+
+        10px;
+
+    flex-wrap:
+
+        wrap;
+
+    margin-top:
+
+        8px;
+
+    padding-top:
+
+        15px;
+
+    border-top:
+
+        1px solid rgba(168,85,247,0.2);
+
+}
+
+
+
+.cinematic-tools select {
+
+    flex:
+
+        1;
+
+    min-width:
+
+        180px;
+
+}
+
+
+
+/* Hidden state */
+
+.hidden {
+
+    display: none;
+
+}
+
+
+
+/* Animation apparition */
+
+.cinematic-tools:not(.hidden) {
+
+    animation:
+
+        menuReveal 0.4s ease forwards;
+
+}
+
+
+
+@keyframes menuReveal {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+
+            translateY(-10px);
+
+    }
+
+
+    to {
+
+        opacity: 1;
+
+        transform:
+
+            translateY(0);
+
+    }
+
+}
+
+
+
+/* Mobile */
+
+@media(max-width:700px) {
+
+
+    .style-row {
+
+        flex-direction:
+
+            column;
+
+    }
+
+
+    .cinematic-tools {
+
+        flex-direction:
+
+            column;
+
+    }
+
+
+    .cinematic-tools select {
+
+        min-width:
+
+            100%;
+
+    }
+
+}

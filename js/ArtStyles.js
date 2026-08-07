@@ -331,7 +331,105 @@ const OrinoArtStyles = {
 
         "abstract":
         "abstract art style, experimental shapes, creative interpretation"
+        // =========================
+        // ENVIRONMENTS & LOCATIONS
+        // =========================
 
+        "forest":
+        "dense forest environment, natural vegetation, atmospheric scenery",
+
+        "jungle":
+        "tropical jungle environment, exotic plants, humid atmosphere",
+
+        "desert":
+        "desert landscape, vast dunes, dramatic environment",
+
+        "mountain":
+        "mountain landscape, epic natural scenery, majestic scale",
+
+        "ocean":
+        "ocean environment, waves, realistic water landscape",
+
+        "beach":
+        "beach environment, coastal scenery, relaxing atmosphere",
+
+        "city":
+        "urban city environment, detailed streets, realistic architecture",
+
+        "megacity":
+        "massive futuristic city, skyscrapers, complex urban landscape",
+
+        "village":
+        "small village environment, peaceful scenery, detailed surroundings",
+
+        "castle":
+        "ancient castle environment, medieval architecture, fantasy setting",
+
+        "space":
+        "outer space environment, galaxies, cosmic atmosphere",
+
+        "alien planet":
+        "alien planet landscape, extraterrestrial environment, sci-fi world",
+
+
+
+        // =========================
+        // WEATHER & NATURAL CONDITIONS
+        // =========================
+
+        "sunny":
+        "bright sunny day, clear sky, natural sunlight",
+
+        "rainy":
+        "rainy atmosphere, wet surfaces, dramatic weather",
+
+        "storm":
+        "stormy weather, dark clouds, powerful atmosphere",
+
+        "snow":
+        "snowy environment, winter landscape, cold atmosphere",
+
+        "foggy":
+        "foggy atmosphere, mist, mysterious environment",
+
+        "windy":
+        "wind effects, moving elements, dynamic atmosphere",
+
+        "tropical":
+        "tropical climate, lush vegetation, warm environment",
+
+        "arctic":
+        "arctic environment, ice landscape, frozen atmosphere",
+
+
+
+        // =========================
+        // TIME & LIGHT ATMOSPHERE
+        // =========================
+
+        "sunrise":
+        "sunrise lighting, warm morning colors, soft atmosphere",
+
+        "sunset":
+        "sunset lighting, golden hour, cinematic warm tones",
+
+        "night":
+        "night atmosphere, dark sky, dramatic lighting",
+
+        "midnight":
+        "midnight scene, deep shadows, mysterious mood",
+
+        "golden hour":
+        "golden hour lighting, warm cinematic glow",
+
+        "blue hour":
+        "blue hour lighting, cool cinematic atmosphere",
+
+        "dreamy":
+        "dreamlike atmosphere, soft colors, fantasy mood",
+
+        "mysterious":
+        "mysterious atmosphere, cinematic shadows, dramatic mood"
 
 
 }

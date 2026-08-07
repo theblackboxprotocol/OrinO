@@ -8,7 +8,48 @@
 
 const promptBox = document.querySelector("textarea");
 
+// =========================================================
+// LOAD ART STYLES INTO MENUS
+// =========================================================
 
+function loadArtStyles(){
+
+    const styleMenus = [
+        document.querySelector("#style-1"),
+        document.querySelector("#style-2"),
+        document.querySelector("#style-3")
+    ];
+
+    styleMenus.forEach(function(menu){
+
+        if(!menu){
+            console.log("Menu style introuvable");
+            return;
+        }
+
+        // Nettoyage du texte Loading styles...
+        menu.innerHTML = "";
+
+        artStyles.forEach(function(style){
+
+            const option = document.createElement("option");
+
+            option.value = style;
+            option.textContent = style;
+
+            menu.appendChild(option);
+
+        });
+
+    });
+
+    console.log("Art Styles chargés :", artStyles.length);
+
+}
+
+
+// Démarrage
+loadArtStyles();
 // Debug simple
 
 console.log("OrinO Script chargé");

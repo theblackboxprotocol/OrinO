@@ -15,7 +15,7 @@ console.log("Style trouvé :", style1);
 // Add selected option to prompt
 
 function addToPrompt(value){
-
+alert("Choix reçu : " + value);
 
     let current = promptBox.value.trim();
 

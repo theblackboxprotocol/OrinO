@@ -186,8 +186,8 @@ const OrinoArtStyles = {
         "mythical creature design, legendary beast, fantasy details",
 
         "dragon":
-        "dragon fantasy art, scales, powerful mythical creature",
-
+        "DRAGON TEST WORKING",
+    
         "demon":
         "demon character design, dark fantasy creature, intimidating presence",
 

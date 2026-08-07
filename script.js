@@ -1,4 +1,4 @@
-console.log("OrinO JS chargé");
+
 // =========================================================
 // ORINO AI PROMPT STUDIO
 // Dynamic Style Controls
@@ -11,32 +11,6 @@ const promptBox = document.querySelector("textarea");
 
 const style1 = document.querySelector("#style-1");
 console.log("Style trouvé :", style1);
-const cinematicTools =
-document.querySelector("#cinematic-tools");
-
-
-// Cinematic trigger
-
-document.addEventListener("change", function(e){
-
-    if(e.target.id === "style-1"){
-
-        if(e.target.value.includes("Cinematic")){
-
-            cinematicTools.classList.remove("hidden");
-
-            console.log("Cinematic activé");
-
-        } 
-        else {
-
-            cinematicTools.classList.add("hidden");
-
-        }
-
-    }
-
-});
 
 // Add selected option to prompt
 

@@ -43,7 +43,9 @@ alert("Choix reçu : " + value);
 
 }
 // Add Shot / Effect / Colors / Genre to Prompt
+
 console.log("Menus chargés");
+
 const promptMenus = [
 
     "#shot-menu",
@@ -58,7 +60,6 @@ promptMenus.forEach(function(menuID){
 
     const menu = document.querySelector(menuID);
 
-
     menu.addEventListener("change", function(){
 
         addToPrompt(this.value);
@@ -68,35 +69,6 @@ promptMenus.forEach(function(menuID){
     });
 
 });
-
-
-// Attach menus
-
-const cinematicMenus = [
-
-    "#shot-menu",
-    "#effect-menu",
-    "#color-menu",
-    "#genre-menu"
-
-];
-
-
-
-cinematicMenus.forEach(function(menuID){
-
-
-    const menu =
-    document.querySelector(menuID);
-
-
-
-    menu.addEventListener("change", function(){
-
-
-        addToPrompt(this.value);
-
-
 
         // reset menu after selection
 

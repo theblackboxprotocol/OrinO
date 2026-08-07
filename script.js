@@ -8,7 +8,7 @@
 // Elements
 
 const promptBox = document.querySelector("textarea");
-
+console.log("Prompt box :", promptBox);
 const style1 = document.querySelector("#style-1");
 console.log("Style trouvé :", style1);
 
@@ -45,7 +45,7 @@ function addToPrompt(value){
 // Add Shot / Effect / Colors / Genre to Prompt
 
 const promptMenus = [
-
+console.log("Menus chargés");
     "#shot-menu",
     "#effect-menu",
     "#color-menu",

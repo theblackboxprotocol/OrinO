@@ -97,23 +97,6 @@ console.log(
     OrinoBrain.enhance("jaune brillant")
 );
 // =========================================================
-// BRAIN TEST
-// =========================================================
-
-window.addEventListener("load", function(){
-
-    console.log("🧠 Orino Brain chargé");
-
-    let test = OrinoBrain.enhance("jaune brillant");
-
-    console.log("Résultat Brain :", test);
-
-});
-console.log(
-    "Orino Brain prêt :",
-    OrinoBrain.enhance("jaune brillant")
-);
-// =========================================================
 // BRAIN BUTTON
 // =========================================================
 

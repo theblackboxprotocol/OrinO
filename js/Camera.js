@@ -50,6 +50,9 @@ const OrinoCamera = {
 };
 
 
+// Make library available to Brain.js
+
+window.OrinoCamera = OrinoCamera;
 // =========================================================
 // END CAMERA LIBRARY
 // =========================================================

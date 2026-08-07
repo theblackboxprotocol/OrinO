@@ -1,63 +1,113 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OnirO — Generative Prompt Studio</title>
+    <title>OrinO — AI Prompt Studio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- En-tête Logo Animé -->
+    <!-- Animated Logo -->
     <header>
         <div class="logo-container">
-            <img src="768310404_1066594275826466_3764743712480842575_n.gif" alt="OnirO Logo">
+            <img src="768310404_1066594275826466_3764743712480842575_n.gif" alt="OrinO Logo">
         </div>
     </header>
 
-    <!-- Contenu Principal -->
-    <div class="main-container">
-        
-        <!-- Boîte de Prompt Principal -->
-        <div class="glass-box prompt-section">
+    <!-- Main Content -->
+    <main class="main-container">
+
+        <!-- Prompt -->
+        <section class="glass-box prompt-section">
+
             <div class="box-header">
-                <h3>PROMPT PRINCIPAL</h3>
+
+                <h3>Prompt</h3>
+
                 <div class="box-actions">
+
                     <button class="icon-btn" title="Random Prompt">
-                        <img src="dice_glass_transparent.png" alt="Dé">
+                        <img src="dice_glass_transparent.png" alt="Random Prompt">
                     </button>
-                    <button class="icon-btn" title="Auto Prompt">
-                        <img src="thought_bubble_fog_transparent.png" alt="Cerveau/Bulle">
-                    </button>
-                </div>
-            </div>
-            <textarea placeholder="Décrivez votre vision, style ou scène onirique..."></textarea>
-        </div>
 
-        <!-- Boîte d'Anti-Prompt / Exclusions -->
-        <div class="glass-box prompt-section">
+                    <button class="icon-btn" title="AI Prompt Builder">
+                        <img src="thought_bubble_fog_transparent.png" alt="AI Prompt Builder">
+                    </button>
+
+                </div>
+
+            </div>
+
+            <textarea
+                placeholder="Describe your image in as much detail as possible..."></textarea>
+
+        </section>
+
+        <!-- Negative Prompt -->
+        <section class="glass-box prompt-section">
+
             <div class="box-header">
-                <h3>ANTI-PROMPT / EXCLUSIONS</h3>
+
+                <h3>Negative Prompt</h3>
+
                 <div class="box-actions">
-                    <button class="icon-btn" title="Random Anti-Prompt">
-                        <img src="dice_glass_transparent.png" alt="Dé">
+
+                    <button class="icon-btn" title="Random Negative Prompt">
+                        <img src="dice_glass_transparent.png" alt="Random Negative Prompt">
                     </button>
-                    <button class="icon-btn" title="Auto Anti-Prompt">
-                        <img src="thought_bubble_fog_transparent.png" alt="Cerveau/Bulle">
+
+                    <button class="icon-btn" title="Negative Prompt Builder">
+                        <img src="thought_bubble_fog_transparent.png" alt="Negative Prompt Builder">
                     </button>
+
                 </div>
+
             </div>
-            <textarea placeholder="Éléments à éviter (flou, déformations, texte indésirable)..."></textarea>
-        </div>
 
-        <!-- Boutons du bas (Nettoyer, Copier, Favoris) -->
-        <div class="custom-buttons">
-            <button class="btn-custom">Nettoyer</button>
-            <button class="btn-custom">Copier</button>
-            <button class="btn-custom">Favoris</button>
-        </div>
+            <textarea
+                placeholder="Describe everything you want the AI to avoid..."></textarea>
 
-    </div>
+        </section>
+
+        <!-- Bottom Controls -->
+        <section class="controls">
+
+            <div class="control-group">
+
+                <label for="image-count">Images</label>
+
+                <select id="image-count">
+
+                    <option selected>3</option>
+                    <option>5</option>
+                    <option>10</option>
+                    <option>30</option>
+                    <option>60</option>
+
+                </select>
+
+            </div>
+
+            <div class="control-group">
+
+                <label for="seed">Seed</label>
+
+                <select id="seed">
+
+                    <option selected>Random</option>
+
+                </select>
+
+            </div>
+
+        </section>
+
+    </main>
 
 </body>
+
 </html>

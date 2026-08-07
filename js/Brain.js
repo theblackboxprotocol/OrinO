@@ -54,10 +54,10 @@ const OrinoBrain = {
 
         });
 
-        // Temporary test message
         if (result.length === 0) {
-            return "BRAIN TEST OK";
+    return promptText;
         }
+        
 
         return result.join(", ");
     }

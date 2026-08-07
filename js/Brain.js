@@ -93,11 +93,31 @@ const OrinoBrain = {
 // BRAIN BUTTON
 // =========================================================
 
+
+const brainLibrary = {
+
+    "jaune": "yellow, golden tones, warm color grading",
+
+    "brillant": "shiny, glossy, high reflection",
+
+    "cinematic": "cinematic, movie style, professional film look",
+
+    "forêt": "forest, natural environment, detailed vegetation",
+
+    "nuit": "night scene, dark atmosphere, dramatic lighting"
+
+};
+
+
+
 const brainButton = document.querySelector("#Brain-btn");
+
 
 if (brainButton) {
 
+
     brainButton.addEventListener("click", function () {
+
 
         const userIdea = prompt(
             "Describe your masterpiece in a few words."
@@ -109,19 +129,40 @@ if (brainButton) {
         }
 
 
+        let enhancedPrompt = userIdea;
+
+
+        Object.keys(brainLibrary).forEach(function(word){
+
+
+            if(userIdea.toLowerCase().includes(word)){
+
+
+                enhancedPrompt += ", " + brainLibrary[word];
+
+
+            }
+
+
+        });
+
+
+
         const promptBox = document.querySelector("#prompt-box");
 
 
-        if (promptBox) {
+        if(promptBox){
 
-            promptBox.value = userIdea;
+            promptBox.value = enhancedPrompt;
 
         }
 
 
-        console.log("Brain input:", userIdea);
+        console.log("Enhanced Brain:", enhancedPrompt);
+
 
     });
+
 
 }
 

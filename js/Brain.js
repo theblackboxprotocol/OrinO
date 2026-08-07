@@ -123,7 +123,25 @@ if (brainButton) {
 
     brainButton.addEventListener("click", function () {
 
-        alert("Brain activé 🧠");
+    const brainButton = document.querySelector("#Brain-btn");
+
+if (brainButton) {
+
+    brainButton.addEventListener("click", function () {
+
+        const userIdea = prompt(
+            "Describe your masterpiece in a few words."
+        );
+
+        if (!userIdea) {
+            return;
+        }
+
+        console.log("Brain input:", userIdea);
+
+    });
+
+}
 
     });
 

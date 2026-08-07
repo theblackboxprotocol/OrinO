@@ -42,7 +42,32 @@ function addToPrompt(value){
 
 
 }
+// Add Shot / Effect / Colors / Genre to Prompt
 
+const promptMenus = [
+
+    "#shot-menu",
+    "#effect-menu",
+    "#color-menu",
+    "#genre-menu"
+
+];
+
+
+promptMenus.forEach(function(menuID){
+
+    const menu = document.querySelector(menuID);
+
+
+    menu.addEventListener("change", function(){
+
+        addToPrompt(this.value);
+
+        this.selectedIndex = 0;
+
+    });
+
+});
 
 
 // Attach menus

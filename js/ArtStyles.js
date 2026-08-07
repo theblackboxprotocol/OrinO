@@ -171,7 +171,7 @@ const OrinoArtStyles = {
         "post apocalyptic style, destroyed world, survival atmosphere",
 
         "alien world":
-        "alien planet environment, extraterrestrial landscapes, sci-fi atmosphere"
+        "alien planet environment, extraterrestrial landscapes, sci-fi atmosphere",
            // =========================
         // CREATURES & CHARACTERS
         // =========================

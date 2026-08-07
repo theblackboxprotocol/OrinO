@@ -10,18 +10,21 @@ const OrinoBrain = {
 
     analyze(promptText) {
 
-        if (!promptText || typeof promptText !== "string") {
-            return "";
-        }
+    console.log("INPUT:", promptText);
 
-        const words = promptText
-            .toLowerCase()
-            .trim()
-            .split(/\s+/);
+    console.log(
+        "DRAGON DIRECT:",
+        window.OrinoArtStyles?.base?.["dragon"]
+    );
 
-        const result = [];
+    console.log(
+        "CINEMATIC DIRECT:",
+        window.OrinoArtStyles?.base?.["cinematic"]
+    );
 
-        words.forEach(word => {
+    return "BRAIN DIRECT TEST";
+
+    }
 
             // ART STYLES
             if (window.OrinoArtStyles?.base?.[word]) {

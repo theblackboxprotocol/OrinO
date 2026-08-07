@@ -71,3 +71,50 @@ const OrinoBrain = {
 // =========================================================
 
 window.OrinoBrain = OrinoBrain;
+// =========================================================
+// BRAIN BUTTON CONNECTION
+// =========================================================
+
+
+const brainButton = document.querySelector("#Brain-btn");
+
+
+if (brainButton) {
+
+
+    brainButton.addEventListener("click", function(){
+
+
+        let userInput = prompt(
+            "Describe your masterpiece in a few words."
+        );
+
+
+        if(!userInput){
+            return;
+        }
+
+
+        let generatedPrompt = OrinoBrain.analyze(userInput);
+
+
+
+        const promptBox = document.querySelector("#prompt-box");
+
+
+        if(promptBox){
+
+            promptBox.value = generatedPrompt;
+
+        }
+
+
+    });
+
+
+}
+
+
+// =========================================================
+// END BRAIN BUTTON CONNECTION
+// =========================================================

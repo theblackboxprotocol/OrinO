@@ -90,23 +90,11 @@ const OrinoBrain = {
 
 };
 
-
-// Test console
-console.log(
-    "Orino Brain prêt :",
-    OrinoBrain.enhance("jaune brillant")
-);
 // =========================================================
 // BRAIN BUTTON
 // =========================================================
 
 const brainButton = document.querySelector("#Brain-btn");
-
-if (brainButton) {
-
-    brainButton.addEventListener("click", function () {
-
-    const brainButton = document.querySelector("#Brain-btn");
 
 if (brainButton) {
 
@@ -126,6 +114,6 @@ if (brainButton) {
 
 }
 
-    });
-
-}
+// =========================================================
+// END BRAIN BUTTON
+// =========================================================

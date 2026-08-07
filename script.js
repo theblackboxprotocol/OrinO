@@ -10,7 +10,7 @@ console.log("OrinO JS chargé");
 const promptBox = document.querySelector("textarea");
 
 const style1 = document.querySelector("#style-1");
-
+console.log("Style trouvé :", style1);
 const cinematicTools =
 document.querySelector("#cinematic-tools");
 
@@ -18,7 +18,25 @@ document.querySelector("#cinematic-tools");
 // Cinematic trigger
 
 style1.addEventListener("change", function(){
+style1.addEventListener("change", function(){
 
+    console.log("Choix détecté :", this.value);
+
+    if(this.value.includes("Cinematic")) {
+
+        console.log("Cinematic activé");
+
+        cinematicTools.classList.remove("hidden");
+
+    } 
+    
+    else {
+
+        cinematicTools.classList.add("hidden");
+
+    }
+
+});
 
     if(this.value.includes("Cinematic")) {
 

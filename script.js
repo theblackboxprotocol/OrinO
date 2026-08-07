@@ -1,104 +1,85 @@
-
 // =========================================================
 // ORINO AI PROMPT STUDIO
-// Dynamic Style Controls
+// Prompt Controls
 // =========================================================
 
 
 // Elements
 
 const promptBox = document.querySelector("textarea");
+
+
+// Debug simple
+
+console.log("OrinO Script chargé");
 console.log("Prompt box :", promptBox);
-const style1 = document.querySelector("#style-1");
-console.log("Style trouvé :", style1);
 
-// Add selected option to prompt
 
-function addToPrompt(value){
-alert("Choix reçu : " + value);
+// Add text to prompt
+
+function addToPrompt(value) {
+
+    if (!promptBox) {
+        console.log("Erreur : textarea introuvable");
+        return;
+    }
+
+
+    if (!value || value.includes("Add")) {
+        return;
+    }
+
 
     let current = promptBox.value.trim();
 
 
-    if(value.includes("Add")) {
-
-        return;
-
-    }
-
-
-    if(current === "") {
+    if (current === "") {
 
         promptBox.value = value;
 
-    }
+    } 
 
-    else if(!current.includes(value)) {
+    else if (!current.includes(value)) {
 
-        promptBox.value =
-        current + ", " + value;
+        promptBox.value = current + ", " + value;
 
     }
 
 
 }
-// Add Shot / Effect / Colors / Genre to Prompt
 
-console.log("Menus chargés");
+
+// Menus Prompt Tools
 
 const promptMenus = [
-
-    "#shot-menu",
-    "#effect-menu",
-    "#color-menu",
-    "#genre-menu"
-
+    "shot-menu",
+    "effect-menu",
+    "color-menu",
+    "genre-menu"
 ];
 
 
-promptMenus.forEach(function(menuID){
 
-    const menu = document.querySelector(menuID);
-
-    menu.addEventListener("change", function(){
-
-        addToPrompt(this.value);
-
-        this.selectedIndex = 0;
-
-    });
-
-});
-
-        // reset menu after selection
-
-        this.selectedIndex = 0;
+promptMenus.forEach(function(id) {
 
 
-    });
+    const menu = document.getElementById(id);
 
 
-});
-// Activation des menus Prompt Tools
+    if(menu) {
 
-document.addEventListener("change", function(e){
 
-    if(
-        e.target.id === "shot-menu" ||
-        e.target.id === "effect-menu" ||
-        e.target.id === "color-menu" ||
-        e.target.id === "genre-menu"
-    ){
+        menu.addEventListener("change", function() {
 
-        let value = e.target.value;
 
-        if(value.includes("Add")){
-            return;
-        }
+            addToPrompt(this.value);
 
-        addToPrompt(value);
 
-        e.target.selectedIndex = 0;
+            this.selectedIndex = 0;
+
+
+        });
+
 
     }
 

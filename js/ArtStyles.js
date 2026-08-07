@@ -64,7 +64,51 @@ const OrinoArtStyles = {
         "ink":
         "ink illustration, detailed line art, traditional drawing"
 
+        // =========================
+        // ANIMATION & CARTOON
+        // =========================
 
+        "cartoon":
+        "cartoon style, colorful animation, expressive characters",
+
+        "3d cartoon":
+        "3D cartoon style, animated movie quality, smooth characters",
+
+        "pixar style":
+        "Pixar inspired 3D animation look, expressive faces, cinematic lighting",
+
+        "disney style":
+        "Disney inspired animation style, magical atmosphere, expressive characters",
+
+        "dreamworks style":
+        "DreamWorks inspired animation style, cinematic animated characters",
+
+        "simpsons style":
+        "The Simpsons inspired cartoon style, yellow skin characters, comedy animation",
+
+        "south park style":
+        "South Park inspired cutout animation style, simple shapes, comedy style",
+
+        "stop motion":
+        "stop motion animation style, handcrafted characters, miniature sets",
+
+        "claymation":
+        "clay animation style, handmade clay characters, studio lighting",
+
+        "comic book":
+        "comic book style, bold outlines, dynamic panels, graphic novel aesthetic",
+
+        "superhero comic":
+        "superhero comic style, dramatic poses, powerful composition",
+
+        "manga":
+        "manga style, Japanese comic aesthetic, detailed line work",
+
+        "anime":
+        "anime style, Japanese animation, expressive eyes, detailed characters",
+
+        "studio ghibli":
+        "Studio Ghibli inspired animation, hand painted backgrounds, magical atmosphere"
 
     },
 

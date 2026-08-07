@@ -89,7 +89,6 @@ const OrinoBrain = {
 
 
 };
-
 // =========================================================
 // BRAIN BUTTON
 // =========================================================
@@ -104,15 +103,28 @@ if (brainButton) {
             "Describe your masterpiece in a few words."
         );
 
+
         if (!userIdea) {
             return;
         }
+
+
+        const promptBox = document.querySelector("#prompt-box");
+
+
+        if (promptBox) {
+
+            promptBox.value = userIdea;
+
+        }
+
 
         console.log("Brain input:", userIdea);
 
     });
 
 }
+
 
 // =========================================================
 // END BRAIN BUTTON

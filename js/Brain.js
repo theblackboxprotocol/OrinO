@@ -25,9 +25,10 @@ const OrinoBrain = {
 
             // ART STYLES
             if (window.OrinoArtStyles?.base?.[word]) {
-                result.push(window.OrinoArtStyles.base[word]);
-            }
 
+    result.push("ARTSTYLE FOUND: " + window.OrinoArtStyles.base[word]);
+
+            }
             // CAMERA
             if (window.OrinoCamera?.base?.[word]) {
                 result.push(window.OrinoCamera.base[word]);

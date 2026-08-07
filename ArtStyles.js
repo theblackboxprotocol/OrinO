@@ -202,3 +202,4 @@ const artStyles = [
     "Cursed Photo"
 
 ];
+console.log("ArtStyles chargé :", artStyles.length);

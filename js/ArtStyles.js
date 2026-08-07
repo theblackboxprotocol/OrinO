@@ -172,8 +172,169 @@ const OrinoArtStyles = {
 
         "alien world":
         "alien planet environment, extraterrestrial landscapes, sci-fi atmosphere"
-    },
+           // =========================
+        // CREATURES & CHARACTERS
+        // =========================
 
+        "creature design":
+        "creature concept design, unique fantasy creature, detailed anatomy",
+
+        "monster design":
+        "monster concept art, terrifying creature design, detailed textures",
+
+        "mythical creature":
+        "mythical creature design, legendary beast, fantasy details",
+
+        "dragon":
+        "dragon fantasy art, scales, powerful mythical creature",
+
+        "demon":
+        "demon character design, dark fantasy creature, intimidating presence",
+
+        "angel":
+        "angelic character design, celestial being, divine atmosphere",
+
+        "robot":
+        "robot character design, futuristic mechanical details",
+
+        "cyborg":
+        "cyborg design, human machine fusion, futuristic technology",
+
+
+
+        // =========================
+        // ANIMAL STYLES
+        // =========================
+
+        "wildlife":
+        "wildlife photography style, realistic animals, natural environment",
+
+        "animal portrait":
+        "animal portrait photography, detailed fur, expressive eyes",
+
+        "cute animals":
+        "cute animal style, adorable characters, soft details",
+
+        "fantasy animals":
+        "fantasy animal design, magical creatures, imaginative world",
+
+
+
+        // =========================
+        // FURRY COMMUNITY STYLE
+        // =========================
+
+        "furry":
+        "furry character style, anthropomorphic animal character, detailed fur",
+
+        "anthropomorphic":
+        "anthropomorphic character, human animal features, expressive personality",
+
+        "furry fantasy":
+        "fantasy furry character, magical anthropomorphic creature",
+
+        "furry realistic":
+        "realistic furry character, detailed fur texture, cinematic lighting",
+
+
+
+        // =========================
+        // POKEMON INSPIRED
+        // =========================
+
+        "pokemon inspired":
+        "creature collection game inspired style, colorful fantasy creatures, playful design",
+
+        "monster collector":
+        "monster collecting game style, unique creatures, colorful fantasy design",
+
+        "cute fantasy creature":
+        "cute fantasy creature design, charming character, colorful details"
+        // =========================
+        // CLASSICAL ART MOVEMENTS
+        // =========================
+
+        "renaissance":
+        "Renaissance art style, classical composition, realistic anatomy, fine details",
+
+        "baroque":
+        "Baroque art style, dramatic lighting, rich details, theatrical composition",
+
+        "romanticism":
+        "Romanticism art style, emotional atmosphere, dramatic landscapes",
+
+        "impressionism":
+        "Impressionist painting style, visible brush strokes, soft colors",
+
+        "surrealism":
+        "Surrealist art style, dreamlike scenes, impossible compositions",
+
+        "expressionism":
+        "Expressionist art style, intense colors, emotional visual impact",
+
+        "art nouveau":
+        "Art Nouveau style, elegant curves, decorative patterns, organic forms",
+
+        "art deco":
+        "Art Deco style, geometric shapes, luxury aesthetic, elegant design",
+
+
+
+        // =========================
+        // FAMOUS ART INSPIRATIONS
+        // =========================
+
+        "van gogh inspired":
+        "Van Gogh inspired style, swirling brush strokes, vibrant colors",
+
+        "monet inspired":
+        "Monet inspired style, soft impressionist colors, atmospheric light",
+
+        "da vinci inspired":
+        "Leonardo inspired style, Renaissance realism, scientific details",
+
+        "picasso inspired":
+        "Picasso inspired style, abstract forms, cubist composition",
+
+        "dali inspired":
+        "Dali inspired surrealism, dreamlike imagery, strange landscapes",
+
+
+
+        // =========================
+        // MODERN DIGITAL AESTHETICS
+        // =========================
+
+        "cyber art":
+        "cyber art style, futuristic digital aesthetic, advanced technology",
+
+        "digital painting":
+        "digital painting style, detailed brushwork, modern illustration",
+
+        "conceptual art":
+        "concept art style, creative ideas, visual storytelling",
+
+        "low poly":
+        "low poly 3D style, geometric shapes, minimalist rendering",
+
+        "pixel art":
+        "pixel art style, retro game graphics, detailed pixel design",
+
+        "vaporwave":
+        "vaporwave aesthetic, retro digital colors, surreal atmosphere",
+
+        "synthwave":
+        "synthwave style, neon retro future, 1980s inspired visuals",
+
+        "minimalist":
+        "minimalist art style, clean composition, simple elegant design",
+
+        "abstract":
+        "abstract art style, experimental shapes, creative interpretation"
+
+
+
+}
 
     learned: {
 

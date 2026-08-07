@@ -58,7 +58,9 @@ const OrinoBrain = {
         });
 
 
-        return result.join(", ");
+        return result.length > 0
+    ? result.join(", ")
+    : "BRAIN TEST OK";
 
     }
 

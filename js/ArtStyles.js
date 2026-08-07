@@ -109,7 +109,69 @@ const OrinoArtStyles = {
 
         "studio ghibli":
         "Studio Ghibli inspired animation, hand painted backgrounds, magical atmosphere"
+        // =========================
+        // GAMING & 3D STYLES
+        // =========================
 
+        "video game art":
+        "video game artwork, detailed environments, high quality game graphics",
+
+        "game cinematic":
+        "game cinematic style, realistic characters, epic scene composition",
+
+        "unreal engine":
+        "Unreal Engine style, realistic 3D rendering, cinematic graphics",
+
+        "unity render":
+        "Unity engine style, 3D game render, detailed assets",
+
+        "3d render":
+        "3D rendered image, realistic materials, professional CGI quality",
+
+        "blender render":
+        "Blender 3D render style, realistic lighting, detailed modeling",
+
+        "character design":
+        "character design sheet, detailed concept character, professional artwork",
+
+        "environment design":
+        "environment concept art, detailed world building, cinematic landscape",
+
+
+
+        // =========================
+        // FANTASY & SCI-FI
+        // =========================
+
+        "epic fantasy":
+        "epic fantasy world, magical landscapes, legendary atmosphere",
+
+        "dark fantasy":
+        "dark fantasy atmosphere, mysterious world, dramatic lighting",
+
+        "medieval fantasy":
+        "medieval fantasy setting, castles, warriors, ancient atmosphere",
+
+        "magic realism":
+        "magical realism style, realistic world with fantasy elements",
+
+        "sci fi":
+        "science fiction style, futuristic technology, advanced civilization",
+
+        "space opera":
+        "space opera style, massive galaxies, epic cosmic scenes",
+
+        "cyberpunk":
+        "cyberpunk style, neon city, futuristic dystopian atmosphere",
+
+        "steampunk":
+        "steampunk style, Victorian technology, mechanical inventions",
+
+        "post apocalyptic":
+        "post apocalyptic style, destroyed world, survival atmosphere",
+
+        "alien world":
+        "alien planet environment, extraterrestrial landscapes, sci-fi atmosphere"
     },
 
 

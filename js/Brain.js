@@ -2,22 +2,38 @@
 // ORINO AI - BRAIN MODULE
 // Simple keyword enrichment test
 // =========================================================
-// =========================================================
-// ORINO LIBRARY CONNECTION
-// =========================================================
-
-
-console.log("ArtStyles:", typeof OrinoArtStyles);
-console.log("Camera:", typeof OrinoCamera);
-console.log("Effects:", typeof OrinoEffects);
-console.log("Colors:", typeof OrinoColors);
-console.log("Genre:", typeof OrinoGenre);
-
-
-// =========================================================
-// END LIBRARY CONNECTION
+ // =========================================================
+// ORINO LIBRARY CONNECTION TEST
 // =========================================================
 
+
+window.addEventListener("load", function(){
+
+    const testBox = document.createElement("div");
+
+    testBox.innerHTML =
+    "🧠 OrinO Libraries:<br>" +
+    "🎨 ArtStyles : " + (typeof OrinoArtStyles) + "<br>" +
+    "📷 Camera : " + (typeof OrinoCamera) + "<br>" +
+    "✨ Effects : " + (typeof OrinoEffects) + "<br>" +
+    "🎨 Colors : " + (typeof OrinoColors) + "<br>" +
+    "🎬 Genre : " + (typeof OrinoGenre);
+
+
+    testBox.style.padding = "10px";
+    testBox.style.margin = "10px";
+    testBox.style.background = "#111";
+    testBox.style.color = "white";
+
+
+    document.body.prepend(testBox);
+
+});
+
+
+// =========================================================
+// END LIBRARY CONNECTION TEST
+// =========================================================
 const OrinoBrain = {
 
 

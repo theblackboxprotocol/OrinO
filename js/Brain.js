@@ -58,7 +58,6 @@ const OrinoBrain = {
     return promptText;
         }
         
-
         return result.join(", ");
     }
 };

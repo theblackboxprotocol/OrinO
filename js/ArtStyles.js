@@ -430,6 +430,375 @@ const OrinoArtStyles = {
 
         "mysterious":
         "mysterious atmosphere, cinematic shadows, dramatic mood"
+        // =========================
+        // CHARACTER DESIGN
+        // =========================
+
+        "character":
+        "detailed character design, unique personality, full visual identity",
+
+        "hero":
+        "heroic character design, confident pose, cinematic presence",
+
+        "villain":
+        "villain character design, dark personality, dramatic appearance",
+
+        "warrior":
+        "warrior character design, armor, powerful stance",
+
+        "wizard":
+        "wizard character design, magical clothing, fantasy elements",
+
+        "royal":
+        "royal character design, elegant clothing, majestic appearance",
+
+        "cyborg character":
+        "cyborg character design, futuristic enhancements, mechanical details",
+
+        "robot character":
+        "robot character design, advanced machinery, futuristic details",
+
+
+
+        // =========================
+        // CLOTHING & COSTUMES
+        // =========================
+
+        "casual clothing":
+        "casual outfit, realistic everyday clothing, natural style",
+
+        "formal clothing":
+        "formal outfit, elegant fashion, sophisticated appearance",
+
+        "armor":
+        "detailed armor design, metallic textures, fantasy warrior equipment",
+
+        "medieval clothing":
+        "medieval clothing, historical fabrics, fantasy costume design",
+
+        "futuristic clothing":
+        "futuristic outfit design, advanced materials, sci-fi fashion",
+
+        "traditional clothing":
+        "traditional clothing, cultural garments, detailed textile patterns",
+
+        "street fashion":
+        "street fashion style, modern urban outfit, trendy design",
+
+        "fantasy costume":
+        "fantasy costume design, elaborate details, magical fabrics",
+
+
+
+        // =========================
+        // ACCESSORIES
+        // =========================
+
+        "jewelry":
+        "luxury jewelry, detailed gemstones, elegant accessories",
+
+        "helmet":
+        "detailed helmet design, protective equipment, realistic materials",
+
+        "mask":
+        "mysterious mask design, detailed patterns, dramatic appearance",
+
+        "weapon":
+        "detailed weapon design, realistic materials, cinematic prop",
+
+        "sword":
+        "fantasy sword design, engraved metal, legendary weapon",
+
+        "staff":
+        "magical staff design, ancient artifact, fantasy details",
+
+
+
+        // =========================
+        // POSES & COMPOSITION
+        // =========================
+
+        "standing pose":
+        "standing character pose, full body composition, balanced framing",
+
+        "action pose":
+        "dynamic action pose, movement, cinematic composition",
+
+        "walking":
+        "walking pose, natural movement, realistic body positioning",
+
+        "running":
+        "running pose, dynamic motion, energy and movement",
+
+        "portrait pose":
+        "portrait pose, expressive face, professional photography",
+
+        "dramatic pose":
+        "dramatic pose, emotional expression, cinematic framing"
+        // =========================
+        // LIGHTING STYLES
+        // =========================
+
+        "cinematic lighting":
+        "cinematic lighting, dramatic shadows, professional movie illumination",
+
+        "studio lighting":
+        "studio lighting, controlled environment, professional photography",
+
+        "natural lighting":
+        "natural lighting, realistic illumination, authentic atmosphere",
+
+        "dramatic lighting":
+        "dramatic lighting, high contrast, intense mood",
+
+        "soft lighting":
+        "soft lighting, gentle shadows, smooth appearance",
+
+        "rim lighting":
+        "rim lighting, glowing edges, cinematic character separation",
+
+        "volumetric lighting":
+        "volumetric lighting, visible light rays, atmospheric depth",
+
+        "neon lighting":
+        "neon lighting, colorful glow, futuristic atmosphere",
+
+        "warm lighting":
+        "warm lighting, golden tones, cozy atmosphere",
+
+        "cold lighting":
+        "cold lighting, blue tones, dramatic atmosphere",
+
+        "moody lighting":
+        "moody lighting, dark atmosphere, cinematic shadows",
+
+
+
+        // =========================
+        // RENDER QUALITY
+        // =========================
+
+        "ultra detailed":
+        "ultra detailed, extremely refined details, high quality rendering",
+
+        "high resolution":
+        "high resolution, sharp details, clean image quality",
+
+        "8k":
+        "8K resolution, ultra sharp details, professional quality",
+
+        "hd":
+        "high definition image quality, detailed textures",
+
+        "hyper realistic":
+        "hyper realistic rendering, lifelike details, realistic textures",
+
+        "photographic":
+        "photographic quality, realistic camera capture",
+
+        "professional":
+        "professional quality, polished visual result",
+
+        "masterpiece":
+        "masterpiece quality, highly refined artwork",
+
+        "award winning":
+        "award winning visual quality, exceptional composition",
+
+
+
+        // =========================
+        // MATERIALS & TEXTURES
+        // =========================
+
+        "realistic textures":
+        "realistic textures, detailed surfaces, natural materials",
+
+        "metallic":
+        "metallic surfaces, realistic reflections, polished materials",
+
+        "glass":
+        "glass textures, transparent surfaces, realistic reflections",
+
+        "wood":
+        "wood textures, natural materials, detailed grain",
+
+        "fabric":
+        "fabric textures, detailed clothing materials",
+
+        "skin detail":
+        "realistic skin texture, natural details, lifelike appearance"
+        // =========================
+        // COMPOSITION & SHOT TYPES
+        // =========================
+
+        "wide shot":
+        "wide shot, large scene composition, environmental storytelling",
+
+        "medium shot":
+        "medium shot, balanced subject and environment framing",
+
+        "close up":
+        "close-up shot, detailed subject focus, intimate framing",
+
+        "extreme close up":
+        "extreme close-up, micro details, intense focus",
+
+        "full body":
+        "full body shot, complete character view, detailed pose",
+
+        "portrait shot":
+        "portrait shot, facial details, professional composition",
+
+        "aerial shot":
+        "aerial shot, high perspective, cinematic overview",
+
+        "drone shot":
+        "drone photography, aerial perspective, cinematic landscape",
+
+        "overhead shot":
+        "overhead view, top perspective, creative composition",
+
+        "low angle shot":
+        "low angle shot, powerful perspective, dramatic presence",
+
+        "high angle shot":
+        "high angle shot, elevated perspective, cinematic view",
+
+
+
+        // =========================
+        // CINEMATIC COMPOSITION
+        // =========================
+
+        "rule of thirds":
+        "rule of thirds composition, balanced visual arrangement",
+
+        "symmetrical":
+        "symmetrical composition, balanced and precise framing",
+
+        "dynamic composition":
+        "dynamic composition, energetic visual arrangement",
+
+        "centered composition":
+        "centered composition, focused subject placement",
+
+        "depth of field":
+        "depth of field, sharp subject, blurred background",
+
+        "shallow depth of field":
+        "shallow depth of field, cinematic background blur",
+
+        "bokeh":
+        "bokeh background, soft light circles, photographic effect",
+
+
+
+        // =========================
+        // FILM LANGUAGE
+        // =========================
+
+        "movie frame":
+        "movie frame composition, cinematic storytelling",
+
+        "film still":
+        "film still photography, captured movie moment",
+
+        "blockbuster scene":
+        "blockbuster movie scene, epic cinematic scale",
+
+        "documentary shot":
+        "documentary style shot, realistic observation",
+
+        "action sequence":
+        "action sequence, dynamic movement, cinematic energy",
+
+        "slow motion":
+        "slow motion effect, dramatic movement capture",
+
+        "freeze frame":
+        "freeze frame moment, captured instant action"
+        // =========================
+        // EXPERIMENTAL & DIGITAL AESTHETICS
+        // =========================
+
+        "cyber aesthetic":
+        "cyber aesthetic, futuristic digital atmosphere, advanced technology",
+
+        "digital futuristic":
+        "futuristic digital style, modern technology, high tech visuals",
+
+        "holographic":
+        "holographic style, transparent projections, futuristic glow",
+
+        "glitch art":
+        "glitch art style, digital distortion, cyber visual effects",
+
+        "datamosh":
+        "datamosh effect, digital motion distortion, experimental visuals",
+
+        "matrix style":
+        "matrix inspired aesthetic, green digital code, cyber atmosphere",
+
+        "dark aesthetic":
+        "dark aesthetic, moody colors, mysterious atmosphere",
+
+        "luxury aesthetic":
+        "luxury aesthetic, premium style, elegant visual design",
+
+        "minimal aesthetic":
+        "minimal aesthetic, clean design, simple composition",
+
+        "clean aesthetic":
+        "clean aesthetic, polished visuals, modern design",
+
+
+
+        // =========================
+        // SOCIAL MEDIA VISUAL STYLES
+        // =========================
+
+        "instagram style":
+        "social media photography style, trendy visual composition",
+
+        "influencer style":
+        "modern influencer photography, lifestyle aesthetic",
+
+        "viral image":
+        "viral social media style, eye-catching composition",
+
+        "thumbnail style":
+        "YouTube thumbnail style, strong visual impact, clear subject",
+
+        "advertising style":
+        "advertising photography, commercial quality, attention grabbing",
+
+
+
+        // =========================
+        // DREAM & SURREAL WORLDS
+        // =========================
+
+        "dream world":
+        "dreamlike world, fantasy atmosphere, surreal environment",
+
+        "nightmare":
+        "nightmare atmosphere, dark surreal visuals, unsettling mood",
+
+        "fairytale":
+        "fairytale style, magical world, enchanted atmosphere",
+
+        "wonderland":
+        "wonderland aesthetic, colorful fantasy environment",
+
+        "surreal landscape":
+        "surreal landscape, impossible scenery, dreamlike reality",
+
+        "cosmic":
+        "cosmic aesthetic, galaxies, universal atmosphere",
+
+        "psychedelic":
+        "psychedelic style, vibrant colors, abstract visual experience"
 
 
 }

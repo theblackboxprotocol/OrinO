@@ -1,3 +1,4 @@
+console.log("OrinO JS chargé");
 // =========================================================
 // ORINO AI PROMPT STUDIO
 // Dynamic Style Controls

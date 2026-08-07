@@ -1,68 +1,62 @@
-// =========================================================
+// // =========================================================
 // ORINO BRAIN
 // =========================================================
+
 const OrinoBrain = {
 
+    // -----------------------------------------------------
+    // ANALYZE USER TEXT
+    // -----------------------------------------------------
 
     analyze(promptText) {
 
+        if (!promptText || typeof promptText !== "string") {
+            return "";
+        }
 
-        let words = promptText
+        const words = promptText
             .toLowerCase()
-            .split(" ");
+            .trim()
+            .split(/\s+/);
 
-
-        let result = [];
-
+        const result = [];
 
         words.forEach(word => {
 
-
-            if (window.OrinoArtStyles?.base[word]) {
-
+            // ART STYLES
+            if (window.OrinoArtStyles?.base?.[word]) {
                 result.push(window.OrinoArtStyles.base[word]);
-
             }
 
-
-            if (window.OrinoCamera?.base[word]) {
-
+            // CAMERA
+            if (window.OrinoCamera?.base?.[word]) {
                 result.push(window.OrinoCamera.base[word]);
-
             }
 
-
-            if (window.OrinoColors?.base[word]) {
-
+            // COLORS
+            if (window.OrinoColors?.base?.[word]) {
                 result.push(window.OrinoColors.base[word]);
-
             }
 
-
-            if (window.OrinoEffects?.base[word]) {
-
+            // EFFECTS
+            if (window.OrinoEffects?.base?.[word]) {
                 result.push(window.OrinoEffects.base[word]);
-
             }
 
-
-            if (window.OrinoGenre?.base[word]) {
-
+            // GENRE
+            if (window.OrinoGenre?.base?.[word]) {
                 result.push(window.OrinoGenre.base[word]);
-
             }
-
 
         });
 
+        // Temporary test message
+        if (result.length === 0) {
+            return "BRAIN TEST OK";
+        }
 
-        return result.length > 0
-    ? result.join(", ")
-    : "BRAIN TEST OK";
-
+        return result.join(", ");
     }
-
-
 };
 
 
@@ -71,50 +65,52 @@ const OrinoBrain = {
 // =========================================================
 
 window.OrinoBrain = OrinoBrain;
+
+
 // =========================================================
-// BRAIN BUTTON CONNECTION
+// BRAIN BUTTON
 // =========================================================
 
+document.addEventListener("DOMContentLoaded", () => {
 
-const brainButton = document.querySelector("#Brain-btn");
+    const brainButton = document.querySelector("#Brain-btn");
 
+    if (!brainButton) {
+        console.warn("Orino Brain: #Brain-btn not found.");
+        return;
+    }
 
-if (brainButton) {
+    brainButton.addEventListener("click", () => {
 
-
-    brainButton.addEventListener("click", function(){
-
-
-        let userInput = prompt(
-            "Describe your masterpiece in a few words."
+        const userInput = window.prompt(
+            "Describe your image in a few words."
         );
 
-
-        if(!userInput){
+        if (!userInput) {
             return;
         }
 
-
-        let generatedPrompt = OrinoBrain.analyze(userInput);
-
-
+        const generatedPrompt = OrinoBrain.analyze(userInput);
 
         const promptBox = document.querySelector("#prompt-box");
 
-
-        if(promptBox){
-
-            promptBox.value = generatedPrompt;
-
+        if (!promptBox) {
+            console.warn("Orino Brain: #prompt-box not found.");
+            return;
         }
 
+        promptBox.value = generatedPrompt;
+
+        // Trigger normal input events
+        promptBox.dispatchEvent(new Event("input", {
+            bubbles: true
+        }));
 
     });
 
-
-}
+});
 
 
 // =========================================================
-// END BRAIN BUTTON CONNECTION
+// END ORINO BRAIN
 // =========================================================

@@ -2,7 +2,21 @@
 // ORINO AI - BRAIN MODULE
 // Simple keyword enrichment test
 // =========================================================
+// =========================================================
+// ORINO LIBRARY CONNECTION
+// =========================================================
 
+
+console.log("ArtStyles:", typeof OrinoArtStyles);
+console.log("Camera:", typeof OrinoCamera);
+console.log("Effects:", typeof OrinoEffects);
+console.log("Colors:", typeof OrinoColors);
+console.log("Genre:", typeof OrinoGenre);
+
+
+// =========================================================
+// END LIBRARY CONNECTION
+// =========================================================
 
 const OrinoBrain = {
 

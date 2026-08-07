@@ -88,17 +88,11 @@ document.addEventListener("DOMContentLoaded", () => {
         // =============================================
 
         const userInput = window.prompt(
-            "🧠 ORINO BRAIN\n\n" +
-            "Entre tes mots-clés pour ton image.\n\n" +
-            "Exemple :\n" +
-            "cinematic dragon blue"
-        );
-
-
-        if (!userInput || !userInput.trim()) {
-            return;
-        }
-
+    "What are you thinking?\n\n" +
+    "Enter a few keywords to describe your image.\n\n" +
+    "Example:\n" +
+    "cinematic dragon blue"
+);
 
         // =============================================
         // ANALYZE

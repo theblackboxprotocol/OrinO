@@ -107,3 +107,27 @@ cinematicMenus.forEach(function(menuID){
 
 
 });
+// Activation des menus Prompt Tools
+
+document.addEventListener("change", function(e){
+
+    if(
+        e.target.id === "shot-menu" ||
+        e.target.id === "effect-menu" ||
+        e.target.id === "color-menu" ||
+        e.target.id === "genre-menu"
+    ){
+
+        let value = e.target.value;
+
+        if(value.includes("Add")){
+            return;
+        }
+
+        addToPrompt(value);
+
+        e.target.selectedIndex = 0;
+
+    }
+
+});

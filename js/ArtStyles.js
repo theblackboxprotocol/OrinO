@@ -811,6 +811,9 @@ const OrinoArtStyles = {
 
 };
 
+// Make library available to Brain.js
+
+window.OrinoArtStyles = OrinoArtStyles;
 
 // =========================================================
 // END ART STYLES LIBRARY
